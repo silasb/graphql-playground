@@ -5,7 +5,7 @@
 ## Getting started
 
 ```sh
-docker-compose up -d hasura
+docker-compose up -d graphql-engine
 ```
 
 Go to http://localhost:8080
