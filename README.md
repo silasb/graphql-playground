@@ -12,6 +12,18 @@ Go to http://localhost:8080
 
 Connect your GraphQL client to http://localhost:8080/v1/graphql
 
+After you are finished just stop the containers associated with the compose file:
+
+```sh
+docker-compose stop
+```
+
+If you want to resume work start up the stopped containers
+
+```sh
+docker-compose start
+```
+
 ## Backup
 
 ```sh
