@@ -14,7 +14,9 @@ Go to http://localhost:8080
 
 ### Import sample data
 
-sample_data.sql
+```sh
+docker exec -i graphql-playground_postgres_1 psql -U postgres postgres < sample_data.sq
+```
 
 ### Connect client
 
@@ -43,7 +45,7 @@ docker-compose start
 ## Backup
 
 ```sh
-docker exec -it hashura_postgres_1 pg_dump -U postgres -d postgres > all.sql
+docker exec -it graphql-playground_postgres_1 pg_dump -U postgres -d postgres > all.sql
 ```
 
 ## Restore
