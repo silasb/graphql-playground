@@ -1,5 +1,5 @@
-import gql from "graphql-tag";
-import basicUserDetails from "./basicUserDetails";
+import gql from 'graphql-tag'
+import basicUserDetails from './basicUserDetails'
 
 export default friendsCondition => gql`
   fragment UserFilteredFriends on users {
@@ -11,4 +11,4 @@ export default friendsCondition => gql`
   }
 
   ${basicUserDetails}
-`;
+`

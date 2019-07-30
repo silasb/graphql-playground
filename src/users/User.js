@@ -1,5 +1,5 @@
-import React from "react";
-import UserList from "./UserList";
+import React from 'react'
+import UserList from './UserList'
 
 const User = ({ name, team_name, friends = [] }) => (
   <li>
@@ -11,6 +11,6 @@ const User = ({ name, team_name, friends = [] }) => (
       </ul>
     )}
   </li>
-);
+)
 
-export default User;
+export default User
